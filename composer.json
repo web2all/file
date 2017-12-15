@@ -1,0 +1,26 @@
+{
+    "name": "web2all/file",
+    "description": "Web2All file handling",
+    "keywords": ["web2all","file"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Merijn van den Kroonenberg",
+            "homepage": "https://github.com/merijnvdk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "web2all/framework" :"~1"
+    },
+    "suggest": {
+        "web2all/ftp": "Pears Net_FTP required when you want to use the included FTP filesystem provider."
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
+
