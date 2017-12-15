@@ -8,7 +8,7 @@ This pacckage is no longer actively maintained. Most likely it is only of intere
 
 Filesystem abstraction layer. Exposes methods to manipulate files/directories on a filesystem. Includes drivers for unix filesystem and ftp filesystem.
 
-When using the ftp filesystem the `web2all/ftp` package is also needed.
+When using the ftp filesystem the Pear `Net_FTP` package ([https://pear.php.net/package/Net_FTP](https://pear.php.net/package/Net_FTP)) is also needed.
 
 ## License ##
 
